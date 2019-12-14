@@ -1,0 +1,23 @@
+From 8d41ff46c3fcd90fb738f46712daf1356d23e70f Mon Sep 17 00:00:00 2001
+From: ayabendary <58883227+ayabendary@users.noreply.github.com>
+Date: Sat, 14 Dec 2019 18:55:06 +0200
+Subject: [PATCH] Create .gitignore
+
+---
+ .gitignore/.gitignore | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore/.gitignore
+
+diff --git a/.gitignore/.gitignore b/.gitignore/.gitignore
+new file mode 100644
+index 0000000..159f515
+--- /dev/null
++++ b/.gitignore/.gitignore
+@@ -0,0 +1,4 @@
++.sass-cache/
++*.css.map
++*.sass.map
++*.scss.map
+-- 
+2.21.0.windows.1
+
